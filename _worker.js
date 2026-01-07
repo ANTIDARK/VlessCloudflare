@@ -9,7 +9,8 @@ let userID = '150b812d-895d-4554-b383-a424980c21f8';
 const bestCFIP = "www.gov.se"
 
 // 用于 CF 网站的代理 IP
-const proxyIPs = ["workers.cloudflare.cyou"]; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
+// const proxyIPs = ["workers.cloudflare.cyou"]; 
+const proxyIPs = ['8.219.77.141', '47.253.171.149', '8.212.12.98'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
