@@ -10,7 +10,7 @@ const bestCFIP = "www.gov.se"
 
 // 用于 CF 网站的代理 IP
 // const proxyIPs = ["workers.cloudflare.cyou"]; 
-const proxyIPs = ['8.219.77.141', '47.253.171.149', '8.212.12.98', 'bestproxy.030101.xyz'];
+const proxyIPs = ['proxyip.hk.fxxk.dedyn.io'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
